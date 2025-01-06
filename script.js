@@ -9,7 +9,11 @@ function daysOfAYear(year){
 }
 
 
+let inputyear =prompt("enter year") ;
+let yearInt = parseInt(inputyear)
+let answer = daysOfAYear(yearInt)
 
- let inputyear =prompt("enter year") 
-let answer = daysOfAYear(inputyear)
 alert(answer)
+
+
+
