@@ -10,6 +10,6 @@ function daysOfAYear(year){
 
 
 
- //let inputyear =prompt("enter year") 
+ let inputyear =prompt("enter year") 
 let answer = daysOfAYear(inputyear)
 alert(answer)
